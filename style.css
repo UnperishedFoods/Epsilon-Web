@@ -1,0 +1,194 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  display: relative;
+  margin: auto;
+  color: #d689d6;
+}
+
+body {
+    background-color: #2f2f2f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+    color: #79bbd1;
+}
+#info {
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar {
+    font-size: 20px;
+    display: flex;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#sidebar {
+    position: fixed;
+    transition: 0.3s;
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(to bottom right, #7ccc92, #0eab38);
+    box-shadow: 5px 0px #222222;
+}
+
+#sidebar a {
+    color: #435543;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+#sidebar a:hover {
+    color: #6f6f6f;
+}
+
+a {
+    color: #9fbb9f;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #6f6f6f;
+}
+
+.topbar img {
+    width: 25px;
+    height: 25px;
+    transition: all .4s ease;
+    border-radius: 3px;
+}
+
+.topbar img:hover {
+    width: 25px;
+    height: 25px;
+    background-color: #6f6f6f;
+}
+
+#close {
+    padding-left: 7px;
+    margin-left: 220px;
+    transition: .3s ease;
+    display: absolute;
+}
+
+#close:hover {
+    color: #8f8f8f;
+}
+
+#main {
+    transition: margin-left .3s;
+}
+
+hr {
+    border-radius: 5px;
+    width: 90%;
+    height: 3px;
+    background-color: #afafaf;
+    border: none;
+}
+
+p {
+    color: #d377d3;
+}
+
+.nameplate {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.nameplate:hover {
+    animation: rotate 1s infinite;
+    transition: 0.3s ease;
+    animation-timing-function: linear;
+}
+
+.nameplate img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+
+.nameplate h2 {
+    margin-left: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nameplate-desc {
+    text-align: center;
+    border: 2px solid #ae88c3;
+    background: #1f1f1f;
+    transition: 0.3s ease;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+}
+
+.aligning-things {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nameplate-desc:hover {
+    background: #3f3f3f;
+}
+
+
+@keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        12% {
+            transform: rotate(1deg);
+        }
+        25% {
+            transform: rotate(3deg);
+        }
+        37% {
+            transform: rotate(1deg);
+        }
+        50% {
+            transform: rotate(0deg);
+        }
+        62% {
+            transform: rotate(-1deg);
+        }
+        75% {
+            transform: rotate(-3deg);
+        }
+        87% {
+            transform: rotate(-1deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+
+
+
