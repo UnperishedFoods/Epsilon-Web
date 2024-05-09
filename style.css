@@ -39,19 +39,19 @@ h2 {
     top: 0;
     left: 0;
     z-index: 1;
-    background-image: linear-gradient(to bottom right, #7ccc92, #0eab38);
+    background-image: linear-gradient(to bottom right, #6861d1, #5957a2);
     box-shadow: 5px 0px #222222;
 }
 
 #sidebar a {
-    color: #435543;
+    color: #1b3441;
     font-size: 30px;
     text-decoration: none;
     transition: 0.3s ease;
 }
 
 #sidebar a:hover {
-    color: #6f6f6f;
+    color: #3836ab;
 }
 
 a {
@@ -177,6 +177,22 @@ h3 {
 
 li {
     color: #d377d3;
+}
+
+#cool-link {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ae88c3;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #1f1f1f;
+    transition: 0.3s ease;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#cool-link:hover {
+    background-color: #212c2c;
 }
 
 
