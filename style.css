@@ -39,19 +39,19 @@ h2 {
     top: 0;
     left: 0;
     z-index: 1;
-    background-image: linear-gradient(to bottom right, #6861d1, #5957a2);
-    box-shadow: 5px 0px #222222;
+    background-image: linear-gradient(to bottom right, #214c4f, #154b56);
+    box-shadow: 0 0px 0px 6px rgba(0,0,0,0.5);
 }
 
 #sidebar a {
-    color: #1b3441;
+    color: #509bc3;
     font-size: 30px;
     text-decoration: none;
     transition: 0.3s ease;
 }
 
 #sidebar a:hover {
-    color: #3836ab;
+    color: #4a7367;
 }
 
 a {
